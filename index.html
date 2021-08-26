@@ -72,15 +72,22 @@
 
     <!-- "What We Do" section -->
     <section id="what-we-do" class="intro">
-        <h2 class="section-title primary-border">What We Do</h2>
-        <p>
-            butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
-        </p>
+        <div class="flex-row">
+            <h2 class="section-title primary-border">What We Do</h2>
+        </div>
+        <div class="flex-row">
+            <p>
+                butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
+            </p>
+        </div>
     </section>
 
     <!-- "What You Do" section -->
     <section id="what-you-do" class="steps">
-        <h2 class="section-title secondary-border">What You Do</h2>
+        <!-- h2 div has margin bottom -->
+        <div class="flex-row">
+            <h2 class="section-title secondary-border">What You Do</h2>
+        </div>
 
         <div>
             <img src="./assets/images/step-1.svg" alt="" />
@@ -109,7 +116,10 @@
 
     <!-- "Your Trainers" section -->
     <section id="your-trainers" class="trainers">
-        <h2 class="section-title primary-border">Meet The Trainers</h2>
+        <div class="flex-row">
+            <h2 class="section-title primary-border">Meet The Trainers</h2>
+        </div>
+        
         <article class="trainer">
             <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
             <div class="trainer-bio text-left">
@@ -152,39 +162,42 @@
 
     <!-- "Reach Out" section -->
     <section id="reach-out" class="contact">
-        <h2 class="section-title secondary-border">Reach Out</h2>
-            <div class="contact-info">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6212.480492392456!2d-77.0097238287903!3d38.8727448718459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b9d77863eb63%3A0x60faf9c5954e6d8b!2sNationals%20Park!5e0!3m2!1sen!2sus!4v1629742005163!5m2!1sen!2sus" 
-                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="flex-row">
+            <h2 class="section-title secondary-border">Reach Out</h2>
+        </div>
+        
+        <div class="contact-info">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6212.480492392456!2d-77.0097238287903!3d38.8727448718459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b9d77863eb63%3A0x60faf9c5954e6d8b!2sNationals%20Park!5e0!3m2!1sen!2sus!4v1629742005163!5m2!1sen!2sus" 
+            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
-                <div class="contact-form">
-                    <h3>Contact Us</h3>
-                    <form>
-                        <label for="contact-name">Your Name</label>
-                        <input type="text" id="contact-name" placeholder="Your Name" />
+            <div class="contact-form">
+                <h3>Contact Us</h3>
+                <form>
+                    <label for="contact-name">Your Name</label>
+                    <input type="text" id="contact-name" placeholder="Your Name" />
 
-                        <label for="contact-message">Message</label>
-                        <textarea id="contact-message" placeholder="Message"></textarea>
+                    <label for="contact-message">Message</label>
+                    <textarea id="contact-message" placeholder="Message"></textarea>
 
-                        <button type="submit">Submit</button>
-                    </form>
-                </div>
-                <div>
-                    <h3>Run Buddy</h3>
-                    <p>
-                        Any questions or concerns before signing up?
-                        <br />
-                        Let us know and we'll be happy to talk to you!
-                    </p>
-                    <address>
-                        55 Main St <br />
-                        Some Town, Ca <br />
-                        12345 <br />
-                        P: 555.RUN.BUDZ (555.786.2839)<br/>
-                        E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
-                    </address>
-                </div>
+                    <button type="submit">Submit</button>
+                </form>
             </div>
+            <div>
+                <h3>Run Buddy</h3>
+                <p>
+                    Any questions or concerns before signing up?
+                    <br />
+                    Let us know and we'll be happy to talk to you!
+                </p>
+                <address>
+                    55 Main St <br />
+                    Some Town, Ca <br />
+                    12345 <br />
+                    P: 555.RUN.BUDZ (555.786.2839)<br/>
+                    E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+                </address>
+            </div>
+        </div>
 
     </section>  
     
